@@ -7,6 +7,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Padding(
         padding: EdgeInsets.all(24),
         child: Column(
@@ -117,7 +118,7 @@ class LoginScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              width: 12,
+              height: 16,
             ),
             SizedBox(
               height: 48,
